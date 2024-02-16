@@ -1,0 +1,9 @@
+[server]
+enableStaticServing = true
+[deprecation]
+showPyplotGlobalUse = false
+[theme]
+primaryColor="#1d6a96"
+backgroundColor="#d1dddb"
+secondaryBackgroundColor="#85b8cb"
+textColor="#283b42"
