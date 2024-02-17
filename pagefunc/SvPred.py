@@ -26,7 +26,7 @@ def info():
     st.write("Where S(t) is the survival probability function, which is the cumulative product of the probability of not dying that we explained earlier.")
     cols = st.columns(6)
     with cols[1]:
-      st.image("./static/scdemo.png",caption='plot_demo'=500)
+      st.image("./static/scdemo.png",caption='plot_demo',width=500)
     cols = st.columns(7) 
     with cols[3]:
       st.link_button("Reference", "https://www.math.wustl.edu/~sawyer/handouts/greenwood.pdf")
