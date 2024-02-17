@@ -26,10 +26,10 @@ def info():
     st.write("Where S(t) is the survival probability function, which is the cumulative product of the probability of not dying that we explained earlier.")
     cols = st.columns(6)
     with cols[1]:
-      st.image("./static/scdemo.png",caption='plot_demo',width=700)
+      st.image("./static/scdemo.png",caption='plot_demo'=500)
     cols = st.columns(7) 
     with cols[3]:
-      st.link_button("Go to Reference", "https://www.math.wustl.edu/~sawyer/handouts/greenwood.pdf")
+      st.link_button("Reference", "https://www.math.wustl.edu/~sawyer/handouts/greenwood.pdf")
   st.divider()
 
 
@@ -70,7 +70,7 @@ def pred():
       st.write("After the KM method is used to draw multiple survival curves according to groups, the Log-rank test can be used to make up for it when direct observation is insufficient to determine whether there is a significant difference between multiple curves.There is no significant difference between the null hypothesis group and the Log-rank test. When the calculated P-value is less than 0.005, the null hypothesis is overturned, and the survival time distribution of the two groups is considered to be significantly different.")
       cols = st.columns(7)
       with cols[3]:
-           st.link_button("Go to Reference", "https://www.math.wustl.edu/~sawyer/handouts/greenwood.pdf")
+           st.link_button("Reference", "https://www.math.wustl.edu/~sawyer/handouts/greenwood.pdf")
   if Uploaded_files:         
      results = logranktest(df)           
      st.write("the calculated P-value = ",results.p_value)
