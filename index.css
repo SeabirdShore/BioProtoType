@@ -1,0 +1,54 @@
+
+body {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+
+  @apply antialiased;
+  @apply m-0;
+  @apply overscroll-none;
+
+  /* Overlay is like auto, but only supported on WebKit and Blink, and it makes the scrollbar not occupy space */
+  overflow: auto;
+  overflow: overlay;
+}
+
+code {
+  font-family: 'IBM Plex Mono', Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  @apply text-6xl;
+  @apply leading-tight;
+  @apply font-semibold;
+}
+
+strong {
+  @apply font-semibold;
+}
+
+*:focus {
+  @apply outline-none;
+}
+
+*:focus-visible {
+  @apply outline-none;
+  @apply shadow-md;
+}
+
+::-webkit-scrollbar {
+  @apply h-2 w-2;
+
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:active {
+  @apply bg-black-700;
+}
+
+::-webkit-scrollbar-thumb:hover,
+:hover::-webkit-scrollbar-thumb:vertical,
+:hover::-webkit-scrollbar-thumb:horizontal {
+  @apply bg-black-500 rounded-full;
+}
