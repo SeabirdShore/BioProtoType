@@ -3,7 +3,8 @@ enableStaticServing = true
 [deprecation]
 showPyplotGlobalUse = false
 [theme]
-primaryColor="#1d6a96"
-backgroundColor="#d1dddb"
-secondaryBackgroundColor="#85b8cb"
+primaryColor="#003e19"
+backgroundColor="#e2fff2"
+secondaryBackgroundColor="#7bc5ae"
 textColor="#283b42"
+font="serif"
