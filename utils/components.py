@@ -154,7 +154,7 @@ text-align: center;
 <div class="footer">
 <p style="font-size:  13px">Copyright (c) 2024 ZJU_China. All Rights Reserved.</p>
 <p style="font-size: 13px">This software is distributed under an MIT licence. Please consult the LICENSE file for more details.</p>
-<a href="https://tinypic.host/image/xmDtc"><img src="https://tinypic.host/images/2024/02/16/ilogo.png" alt="ilogo.png" height = "70"></a>
+<a href="https://tinypic.host/image/ynqza"><img src="https://tinypic.host/images/2024/02/21/iilogo.png" alt="ilogo.png" height = "70"></a>
 </a><a href="https://github.com/Xspielberg"><img class="image2" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="70" height="70"></a>
 """
 
